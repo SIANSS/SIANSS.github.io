@@ -1,89 +1,31 @@
 <!DOCTYPE html>
-<style media="screen">
-.heart {
-position: absolute;
-margin: auto;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-background-color: pink;
-height: 50px;
-width: 50px;
-transform:rotate(-45deg);
-animation-name: heartbeat;
-animation-duration: 5s;
-}
-
-@keyframes heartbeat {
-0%{
-  transform: rotate(-45deg);
-  transform: scale(5.5);
-}
-10%{
-  transform: rotate(-45deg);
-  transform: scale(3.5);
-}
-20%{
-  transform: rotate(-45deg);
-  transform: scale(5.5);
-}
-30%{
-  transform: rotate(-45deg);
-  transform: scale(3.5);
-}
-40%{
-  transform: rotate(-45deg);
-  transform: scale(5.5);
-}
-50%{
-  transform: rotate(-45deg);
-  transform: scale(3.5);
-}
-60%{
-  transform: rotate(-45deg);
-  transform: scale(5.5);
-}
-70%{
-  transform: rotate(-45deg);
-  transform: scale(3.5);
-}
-80%{
-  transform: rotate(-45deg);
-  transform: scale(5.5);
-}
-90%{
-  transform: rotate(-45deg);
-  transform: scale(3.5);
-}
-}
-.heart:after {
-background-color: pink;
-content: "";
-border-radius: 50%;
-position: absolute;
-width: 50px;
-height: 50px;
-top: 0px;
-left: 25px;
-}
-.heart:before {
-content:"";
-background-color: pink;
-border-radius: 50%;
-position: absolute;
-width: 50px;
-height: 50px;
-top: -25px;
-left: 0px;
-}
-</style>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i|Oswald:300|Roboto|Roboto+Condensed:300|Titillium+Web:300|Ubuntu:300" rel="stylesheet">
+<link rel="stylesheet" href="css/xstylus.css">
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>SIAN @ UKI</title>
+    <title>Porfolio - Sian</title>
   </head>
   <body>
-    <span class="heart"></span>
+    <div class="bhead">
+      <ul class="xlinks">
+        <li><a href="#">About me</a></li>
+        <li></li>
+        <li><a href="#">Work</a></li>
+      </ul>
+      <div class="headline">
+        <h2 class="headtext">DIMOSIAN</h2>
+        <p class="desc">Student & Wannabe Programmer</p>
+        <p hidden class="desc"><img src="https://png.icons8.com/ios/50/000000/standing-man-filled.png"> Human Being, <img src="https://png.icons8.com/ios/50/000000/poison-filled.png">Cyber Pirate, <img src="images/9.png"> #Meme_Lord and Probhably the worst programmer who ever lived<u><b>(In Future)</b></u></p>
+      </div>
+    </div>
+    <div class="body">
+      <h2>Portfolio</h2>
+      <p>I guess i am a nerd, proud gamer. I've finished my schooling  at St.Patrick's College, Jaffna and studied HND in Computer Systems & Sofware Development. Currently Learning Full Stack Web Development at <a href="http://uki.life/">UKI.Life</a></p>
+      <p>I have <u>Complete</u> understanding about <b>Basic Java Programming.</b> Being the best programmer in the room is my single target. Also Worked Random Jobs in Motels to support my Education. Love Befriending Strangers. Open to Learning Alternative World Views, and to  Different Perspective of Matters.</p>
+
+      <p class="quote">Not stupid enough to think i'm a Genius. but Genius enough to know i'm not Stupid</p>
+    </div>
   </body>
 </html>

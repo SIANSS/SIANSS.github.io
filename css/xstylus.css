@@ -1,0 +1,137 @@
+
+/* ONLINE FONTS FOR STYLING */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Fira Sans', sans-serif; */
+
+body{
+  background-image: url(../images/eagle.jpg);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bhead{
+  background-color: rgba(0, 0, 100, 0.25);
+  width:auto;
+  height:auto;
+}
+.xlinks{
+  border: 2px solid black;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+.xlinks > li {
+
+  background-image:linear-gradient(90deg, lightblue, lime, lightblue);
+  display: inline;
+  margin-left: 0px;
+  margin-right: 2px;
+}
+.xlinks > li > a {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.headline{
+  width: auto;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.headline > h2{
+  font-size: 200px;
+  animation-name: fabulous;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.headline > img{
+  background-color: Red;
+}
+@keyframes fabulous {
+  0%{
+    color: lightblue;
+  }
+  10%{
+    color: lime;
+  }
+  20%{
+    color: lightblue;
+  }
+  30%{
+    color: lime;
+  }
+  40%{
+    color: lightblue;
+  }
+  50%{
+    color: lime;
+  }
+  60%{
+    color: lightblue;
+  }
+  70%{
+    color: lime;
+  }
+  80%{
+    color: lightblue;
+  }
+  90%{
+    color: lime;
+  }
+  100%{
+    color: lightblue;
+  }
+}
+.headtext{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 60px;
+}
+
+.desc{
+
+  font-weight: bolder;
+  outline-color: blue;
+  color: Lime;
+  font-family:'Oswald';
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.body{
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+  width:1200px;
+  height: 800px;
+}
+.body > h2{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+.body > p {
+  text-align: justify;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.quote{
+  font-family: 'Fira Sans' !important;
+}
